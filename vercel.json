@@ -1,4 +1,7 @@
 {
   "version": 2,
-  "cleanUrls": true
+  "cleanUrls": true,
+  "builds": [
+    { "src": "**", "use": "@vercel/static" }
+  ]
 }
